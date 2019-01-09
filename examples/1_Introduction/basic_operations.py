@@ -8,7 +8,8 @@ Project: https://github.com/aymericdamien/TensorFlow-Examples/
 from __future__ import print_function
 
 import tensorflow as tf
-
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
 # Basic constant operations
 # The value returned by the constructor represents the output
 # of the Constant op.
